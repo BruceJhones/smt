@@ -59,7 +59,7 @@ hr {
   );
 }
 .header {
-  position: absolute;
+  position: relative;
   display: block;
 }
 .cloud {
