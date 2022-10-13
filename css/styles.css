@@ -60,6 +60,7 @@ hr {
 }
 .header {
   position: absolute;
+  display: block;
 }
 .cloud {
   position: relative;
