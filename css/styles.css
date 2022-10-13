@@ -1,0 +1,197 @@
+/*tags*/
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #064c77;
+}
+h1 {
+  margin: 0;
+  font-size: 3em;
+  font-family: "Dancing Script", cursive;
+  background: -webkit-linear-gradient(rgb(5, 216, 240), #046cac);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: normal;
+  font-family: "Lora", serif;
+  background: -webkit-linear-gradient(rgb(5, 216, 240), #046cac);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h3 {
+  font-size: 2rem;
+  font-family: "Lora", serif;
+  background: -webkit-linear-gradient(rgb(5, 216, 240), #046cac);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+img {
+  height: auto;
+  display: inline-block;
+  position: relative;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+hr {
+  width: 60%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+/*classes*/
+.top {
+  background-attachment: fixed;
+  background-image: linear-gradient(
+    rgb(197, 233, 231),
+    #a4ebf3,
+    rgb(61, 186, 236)
+  );
+}
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.cloud {
+  position: relative;
+  max-width: 102%;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.mountain {
+  position: relative;
+  max-width: 100%;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.middle {
+  padding-top: 100px;
+  background-color: #e6ecf0;
+  line-height: 1;
+}
+.img1 {
+  max-width: 30%;
+}
+.img2 {
+  max-width: 33%;
+  position: relative;
+}
+.profile {
+  display: block;
+  height: 500px;
+  margin: auto;
+  width: 50%;
+}
+.skills {
+  padding-top: 100px;
+  display: block;
+  height: 1160px;
+  margin: auto;
+  width: 50%;
+}
+.personal {
+  padding: 50px;
+  max-width: 30%;
+  display: inline-block;
+  z-index: 0;
+}
+.personal:hover {
+  transition: all 0.5s ease;
+  transform: scale(3.5);
+  -webkit-transform: scale(3.5);
+  -moz-transform: scale(3.5);
+  -ms-transform: scale(3.5);
+  -o-transform: scale(3.5);
+  z-index: 1;
+  -webkit-transform: scale(3.5);
+}
+.origami {
+  padding: 50px 0 0 0;
+  max-width: 20%;
+  display: inline-block;
+}
+.contact-me {
+  padding-top: 70px;
+  display: block;
+  height: 550px;
+  margin: auto;
+  width: 50%;
+}
+.img-chat {
+  max-width: 33%;
+  position: relative;
+}
+.bottom-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgb(255, 255, 255), #a4ebf3);
+}
+.footer-link {
+  margin: 0;
+  background: -webkit-linear-gradient(rgb(5, 216, 240), #046cac);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn {
+  background: #a4ebf3;
+  background-image: -webkit-linear-gradient(top, #a4ebf3, #f4c7f4);
+  background-image: -moz-linear-gradient(top, #a4ebf3, #f4c7f4);
+  background-image: -ms-linear-gradient(top, #a4ebf3, #f4c7f4);
+  background-image: -o-linear-gradient(top, #a4ebf3, #f4c7f4);
+  background-image: linear-gradient(to bottom, #a4ebf3, #f4c7f4);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #fafafa;
+  background-image: -webkit-linear-gradient(top, #fafafa, #a4ebf3);
+  background-image: -moz-linear-gradient(top, #fafafa, #a4ebf3);
+  background-image: -ms-linear-gradient(top, #fafafa, #a4ebf3);
+  background-image: -o-linear-gradient(top, #fafafa, #a4ebf3);
+  background-image: linear-gradient(to bottom, #fafafa, #a4ebf3);
+  text-decoration: none;
+}
+/*ids*/
+#sub {
+  margin: 0%;
+  font-family: "Lora", serif;
+}
+#line {
+  width: 30%;
+}
